@@ -1,0 +1,7 @@
+//<==> au package
+module CorbaConversion {
+    interface IConversionRemote{
+        //client et serveur utilise java montant est un parametre d'entrée
+        double ConversionMontant(in double montant);
+    };
+    };

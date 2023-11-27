@@ -1,0 +1,9 @@
+//<==> au package
+// Définition du module en IDL
+module CorbaConversion {
+// Definition de l'interface
+    interface IConversionRemote{
+        //Definition de la methode de l'interface qui prend  montant comme parametre d'entrée
+        double ConversionMontant(in double montant);
+    };
+    };//fin du module
